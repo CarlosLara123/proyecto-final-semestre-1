@@ -1,0 +1,78 @@
+.option {
+    font-weight: 700;
+ }
+
+ .parallax {
+    /* The image used */
+    background-image: url("https://res.cloudinary.com/dftejnbqx/image/upload/v1622875539/PROYECTO-FIANAL-S1/option-3_v7zblm.gif");
+    /* Set a specific height */
+    min-height: 500px;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin-top: -80px;
+    display: flex;
+ }
+
+ #recuadro {
+    margin: 0px auto;
+    align-items: center;
+    justify-content: center;
+    background-color: #cacaca !important;
+    max-width: 610px;
+    max-height: 60px;
+ }
+
+ .parallax h1 {
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    align-self: flex-end;
+    text-transform: uppercase;
+ }
+
+ .container {
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+ }
+
+ #about p {
+    padding: 0 40px 0 40px;
+    text-align: justify;
+    font-size: larger;
+ }
+
+ #services {
+    /* background-color: #f7f7f7ef; */
+    background-color: #87EAF9;
+ }
+ #services p,a{
+    font-size:medium;
+ }
+ 
+ #function {
+   padding-bottom: 110px;
+ }
+ 
+ #function p {
+   padding: 40px 40px 0 40px;
+    text-align: justify;
+    font-size: larger;
+ }
+
+ footer .container{
+    background-color: #87EAF9;
+    text-align: center;
+ }
+
+ footer .card{
+    background-color: #60d1e2;
+    position: relative;
+    margin-top: -100px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 7%;
+ }
